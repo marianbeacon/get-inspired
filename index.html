@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beacon FinTrain - Daily Inspiration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Get your Inspiration qoute</h1>
+            <p class="subtitle">Spin the wheel for your today dose of positivity</p>
+        </header>
+
+        <main>
+            <div class="wheel-container">
+                <canvas id="wheelCanvas" width="500" height="500"></canvas>
+                <div class="arrow"></div>
+            </div>
+
+            <div class="instruction-container">
+                <p class="instruction">Click on the spin wheel itself to get your today inspiration</p>
+                <p class="instruction-ar">اضغط على العجلة نفسها للحصول على إلهامك اليوم</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Beacon FinTrain. Spreading positivity across the company locations</p>
+            <p class="small">Idea powered by Marian Nader - UI/UX Designer at Beacon FinTrain</p>
+            <p class="small">Made with ❤️ for BEACON employees</p>
+        </footer>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle">Your Inspiration</h2>
+            <div class="quote-container">
+                <p id="quoteAr" class="quote-ar"></p>
+                <p id="quoteEn" class="quote-en"></p>
+            </div>
+            <button id="closeModalBtn" class="primary-btn">Awesome!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
