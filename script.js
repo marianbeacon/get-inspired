@@ -1,89 +1,126 @@
 const quotes = [
     {
-        ar: "الجودة مش صدفة، دي نتيجة إصرار واهتمام بالتفاصيل.",
-        en: "Quality isn’t luck — it’s the result of persistence and attention to detail."
+        ar: "لما تساعد غيرك ينجح، أنت كمان بتنجح بشكل مختلف",
+        en: "When you help others succeed, you succeed in a different way too."
     },
     {
-        ar: "الجودة بتبدأ من طريقة تفكيرك قبل ما تبدأ شغلك",
-        en: "Quality starts with how you think before you start your work."
+        ar: "أحيانًا أبسط مساعدة منك ممكن تغيّر يوم كامل لشخص تاني",
+        en: "Sometimes the simplest help can change someone's entire day."
     },
     {
-        ar: "كل تفصيلة صغيرة ممكن تفرق بين العادي والممتاز",
-        en: "Every small detail can be the difference between average and excellent."
+        ar: "القيمة الحقيقية تظهر لما تستخدم خبرتك لخدمة الآخرين",
+        en: "True value appears when you use your expertise to help others."
     },
     {
-        ar: "خليك فخور بشغلك كأنه بيحمل اسمك... لأنه فعلاً كده",
-        en: "Be proud of your work as if it carries your name — because it does."
+        ar: "النجاح مش حظ النجاح عادة بتتبني كل يوم",
+        en: "Success isn't luck — it's a habit built every day."
     },
     {
-        ar: "إيد لوحدها ما تسقفش، لكن مع بعض بنعمل إنجاز",
-        en: "One hand can’t clap — but together, we achieve greatness."
+        ar: "كل إنجاز كبير كان في يوم من الأيام مجرد هدف مكتوب",
+        en: "Every great achievement was once just a written goal."
     },
     {
-        ar: "الفريق القوي هو اللي كل فرد فيه شايف نجاح التاني نجاح ليه",
-        en: "A strong team sees each other’s success as their own."
+        ar: "الاستمرار وقت الصعوبة هو اللي بيصنع الفرق الحقيقي",
+        en: "Persistence during difficult times creates real success."
     },
     {
-        ar: "كل واحد في الفريق ليه دور، وكل دور مهم في الصورة الكبيرة",
-        en: "Every team member has a role, and every role matters in the big picture."
+        ar: "السعادة مش دايمًا في الوصول، أحيانًا في الرحلة نفسها",
+        en: "Happiness isn't always in the destination — sometimes it's in the journey."
     },
     {
-        ar: "لما نشتغل بروح واحدة، مافيش حاجة توقفنا",
-        en: "When we work with one spirit, nothing can stop us."
+        ar: "خلي الامتنان جزء من يومك، هتلاقي أسباب السعادة حواليك",
+        en: "Make gratitude part of your day and you'll find happiness everywhere."
     },
     {
-        ar: "النجاح مش خطوة واحدة، ده مشوار من محاولات وتعلّم",
-        en: "Success isn’t one step — it’s a journey of trying and learning."
+        ar: "الابتسامة البسيطة ممكن تفتح أبواب أكتر مما تتخيل",
+        en: "A simple smile can open more doors than you imagine."
     },
     {
-        ar: "مفيش طريق مختصر للنجاح، بس كل خطوة بتقرّبك منه",
-        en: "There’s no shortcut to success, but every step gets you closer."
+        ar: "النجاح الحقيقي إنك تبني حياة تحبها، مش بس وظيفة تنجح فيها",
+        en: "True success is building a life you love, not just a career."
     },
     {
-        ar: "خليك مؤمن إن التعب دايمًا ليه نتيجة.",
-        en: "Believe that hard work always pays off."
+        ar: "الراحة مش رفاهية... الراحة جزء من الإنتاجية",
+        en: "Rest isn't a luxury — it's part of productivity."
     },
     {
-        ar: "النجاح الحقيقي لما تفرح بنجاح غيرك كأنه نجاحك",
-        en: "True success is celebrating others’ success as if it’s your own"
+        ar: "خصص وقت لنفسك بنفس الجدية اللي بتخصص بيها وقت لشغلك",
+        en: "Schedule time for yourself with the same commitment as your work."
     },
     {
-        ar: "ابدأ بخطوة صغيرة، بس بخطة كبيرة",
-        en: "Start with a small step, but a big plan."
+        ar: "كلمة تشجيع في الوقت المناسب ممكن تصنع فرق كبير",
+        en: "The right encouragement at the right time can make a huge difference."
     },
     {
-        ar: "كل يوم فرصة جديدة تثبت لنفسك إنك تقدر",
-        en: "Every day is a new chance to prove to yourself that you can."
+        ar: "الدعم الحقيقي هو إنك تؤمن بحد حتى قبل ما هو يؤمن بنفسه",
+        en: "Real support is believing in someone before they believe in themselves."
     },
     {
-        ar: "لما تفكر بإيجابية، بتخلق طاقة بتغيّر الواقع",
-        en: "When you think positively, you create energy that changes reality."
+        ar: "القوة بتكبر لما نشاركها مع بعض",
+        en: "Strength grows when we share it with others."
     },
     {
-        ar: "حتى لو النهاردة صعب، بكرة ممكن يكون أحسن",
-        en: "Even if today is tough, tomorrow can be better."
+        ar: "الأفكار العظيمة تكبر لما تتشارك",
+        en: "Great ideas grow when they are shared."
     },
     {
-        ar: "التحديات معمولة علشان تكتشف قوتك",
-        en: "Challenges exist to help you discover your strength."
+        ar: "التعاون بيحول التحديات لفرص",
+        en: "Collaboration turns challenges into opportunities."
     },
     {
-        ar: "ابتسم، يمكن تكون سبب طاقة حلوة في يوم حد غيرك.",
-        en: "Smile — you might be the reason someone else’s day gets better."
+        ar: "أفضل الحلول غالبًا بتطلع من عقول بتفكر مع بعض",
+        en: "The best solutions often come from minds working together."
     },
     {
-        ar: "كل إنجاز كبير بدأ بفكرة صغيرة وإصرار كبير",
-        en: "Every great achievement started with a small idea and big determination."
+        ar: "كل علاقة مهنية جديدة هي فرصة جديدة للتعلم والنمو",
+        en: "Every professional connection is a new opportunity to learn and grow."
     },
     {
-        ar: "الجودة مش إنك تعمل كتير، الجودة إنك تعمل الصح",
-        en: "Quality isn’t about doing more — it’s about doing it right."
+        ar: "ابني علاقات قبل ما تحتاجها",
+        en: "Build relationships before you need them."
     },
     {
-        ar: "الفريق اللي بيسند بعض، يوصل أبعد من اللي بيتسابق",
-        en: "A team that supports each other goes farther than one that competes."
+        ar: "الشبكات القوية بتتبني بالثقة مش بعدد المعارف",
+        en: "Strong networks are built on trust, not numbers."
+    },
+    {
+        ar: "استثمر في نفسك... ده الاستثمار الوحيد اللي بيزيد قيمته مع الوقت",
+        en: "Invest in yourself — it's the one investment that grows forever."
+    },
+    {
+        ar: "كل مهارة جديدة بتضيف فرصة جديدة لمستقبلك",
+        en: "Every new skill adds a new opportunity to your future."
+    },
+    {
+        ar: "التطوير المستمر مش اختيار، ده أسلوب نجاح",
+        en: "Continuous growth isn't an option — it's a success mindset."
+    },
+    {
+        ar: "أحلامك تستحق إنك تديها فرصة تتحقق",
+        en: "Your dreams deserve a chance to become reality."
+    },
+    {
+        ar: "الحلم بيبدأ فكرة، والإنجاز بيبدأ خطوة",
+        en: "Dreams start as ideas, achievements start with action."
+    },
+    {
+        ar: "متخليش حجم الحلم يخوفك من البداية",
+        en: "Don't let the size of the dream stop you from starting."
+    },
+    {
+        ar: "الجودة هي لما تعمل الصح حتى لو محدش شايفك",
+        en: "Quality is doing the right thing even when no one is watching."
+    },
+    {
+        ar: "كل تفصيلة محسوبة بتضيف قيمة للنتيجة النهائية",
+        en: "Every thoughtful detail adds value to the final result."
+    },
+    {
+        ar: "الجودة عادة يومية قبل ما تكون نتيجة نهائية",
+        en: "Quality is a daily habit before it's a final outcome."
     }
 ];
+
 
 const canvas = document.getElementById('wheelCanvas');
 const ctx = canvas.getContext('2d');
@@ -101,12 +138,19 @@ let spinAngleStart = 10;
 let spinTime = 0;
 let spinTimeTotal = 0;
 let isSpinning = false;
+let lastSegmentIndex = -1; // Track the last segment crossed
 
 const colors = [];
-// Group 21 quotes into 3 visual segments (7 quotes per color)
-for (let i = 0; i < 7; i++) colors.push('#F7C100'); // Yellow
-for (let i = 0; i < 7; i++) colors.push('#007DB6'); // Medium Blue
-for (let i = 0; i < 7; i++) colors.push('#102649'); // Dark Blue
+const quotesPerColor = Math.ceil(quotes.length / 3);
+for (let i = 0; i < quotes.length; i++) {
+    if (i < quotesPerColor) {
+        colors.push('#F7C100'); // Yellow
+    } else if (i < quotesPerColor * 2) {
+        colors.push('#007DB6'); // Medium Blue
+    } else {
+        colors.push('#102649'); // Dark Blue
+    }
+}
 
 function drawRouletteWheel() {
     const outsideRadius = 220;
@@ -157,6 +201,15 @@ function rotateWheel() {
     const spinAngle = spinAngleStart - easeOut(spinTime, 0, spinAngleStart, spinTimeTotal);
     startAngle += (spinAngle * Math.PI / 180);
     drawRouletteWheel();
+
+    // Check if we crossed a segment boundary
+    const degrees = startAngle * 180 / Math.PI + 90;
+    const arcd = arc * 180 / Math.PI;
+    const currentSegmentIndex = Math.floor((360 - degrees % 360) / arcd);
+
+    // Removed audio feedback - keeping only visual animations
+    lastSegmentIndex = currentSegmentIndex;
+
     spinTimeout = requestAnimationFrame(rotateWheel);
 }
 
@@ -183,6 +236,10 @@ function spin() {
     spinAngleStart = Math.random() * 10 + 10;
     spinTime = 0;
     spinTimeTotal = Math.random() * 3000 + 4000;
+
+    // Reset segment tracking
+    lastSegmentIndex = -1;
+
     rotateWheel();
 }
 
@@ -194,10 +251,54 @@ function showResult(index) {
     quoteAr.textContent = quote.ar;
     quoteEn.textContent = quote.en;
 
+    // Trigger confetti burst
+    triggerConfetti();
+
     // Small delay before showing modal
     setTimeout(() => {
         modal.classList.add('show');
     }, 500);
+}
+
+function triggerConfetti() {
+    // Custom confetti with Beacon brand colors
+    const beaconColors = ['#F7C100', '#007DB6', '#102649'];
+
+    // Main burst
+    confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 },
+        colors: beaconColors,
+        shapes: ['circle', 'square'],
+        gravity: 1.2,
+        scalar: 1.2
+    });
+
+    // Additional bursts
+    setTimeout(() => {
+        confetti({
+            particleCount: 100,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+            colors: beaconColors,
+            gravity: 1.0,
+            scalar: 0.8
+        });
+    }, 150);
+
+    setTimeout(() => {
+        confetti({
+            particleCount: 100,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+            colors: beaconColors,
+            gravity: 1.0,
+            scalar: 0.8
+        });
+    }, 300);
 }
 
 function closeModal() {
@@ -205,8 +306,7 @@ function closeModal() {
 }
 
 // Event Listeners
-// Event Listeners
-wheelContainer.addEventListener('click', spin); // Click on wheel to spin
+wheelContainer.addEventListener('click', spin);
 
 closeModalBtn.addEventListener('click', closeModal);
 closeSpan.addEventListener('click', closeModal);
