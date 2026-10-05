@@ -1,7 +1,7 @@
 const quotes = [
     {
-        ar: "لما تساعد غيرك ينجح، أنت كمان بتنجح بشكل مختلف",
-        en: "When you help others succeed, you succeed in a different way too."
+        ar: "لما تساعد غيرك ينجح، نجاحك بيكبر معاه",
+        en: "When you help others succeed, your success grows with theirs."
     },
     {
         ar: "أحيانًا أبسط مساعدة منك ممكن تغيّر يوم كامل لشخص تاني",
@@ -118,6 +118,122 @@ const quotes = [
     {
         ar: "الجودة عادة يومية قبل ما تكون نتيجة نهائية",
         en: "Quality is a daily habit before it's a final outcome."
+    },
+    {
+        ar: "كلمة حلوة ممكن تغيّر يوم حد من غير ما تاخد منك حاجة.",
+        en: "A kind word can change someone's day without costing you anything."
+    },
+    {
+        ar: "خليك الشخص اللي وجوده بيخلّي المكان أحلى.",
+        en: "Be the person who makes every place a little better."
+    },
+    {
+        ar: "اسمع، ساعد، شارك… الفريق الحلو بيتبني بالحاجات دي",
+        en: "Listen, help, share — that's how great teams are built."
+    },
+    {
+        ar: "مش كل حاجة محتاجة منافسة… ساعات التعاون هو المكسب الحقيقي",
+        en: "Not everything needs to be a competition — sometimes collaboration is the real win."
+    },
+    {
+        ar: "اعمل حاجة صغيرة حلوة النهارده… يمكن تفرق مع حد جدًا",
+        en: "Do one small good thing today — it might mean a lot to someone."
+    },
+    {
+        ar: "خد وقتك، اتعلم، وارجع أقوى",
+        en: "Take your time, learn, and come back stronger."
+    },
+    {
+        ar: "الإنجاز بيبدأ لما تقول: يلا نجرب",
+        en: "Progress begins when you say, \"Let's give it a try.\""
+    },
+    {
+        ar: "لو الدنيا زنقت… خد نفس، اشرب قهوتك، ونكمّل. ☕😄",
+        en: "When things get tough… take a breath, grab your coffee, and keep going. ☕😄"
+    },
+    {
+        ar: "خلي نجاحك يفتح باب لحد تاني، مش يقفل الباب وراك.",
+        en: "Let your success open a door for someone else, not close one behind you."
+    },
+    {
+        ar: "ضحكة حلوة، كلمة حلوة، ومساعدة صغيرة… يومك ممكن يتغير",
+        en: "A good laugh, a kind word, and a little help can change your whole day."
+    },
+    {
+        ar: "الناس الحلوة بتخلّي حتى الأيام التقيلة أخف",
+        en: "Good people make even the hardest days feel lighter."
+    },
+    {
+        ar: "اشتغل بجد، اضحك أكتر، وسيب أثر حلو",
+        en: "Work hard, laugh more, and leave a positive impact."
+    },
+    {
+        ar: "النجاح بيكون أحلى لما نحققه سوا.",
+        en: "Success is better when we achieve it together."
+    },
+    {
+        ar: "مش لازم كل يوم يكون مثالي… المهم نفضل نتقدم.",
+        en: "Every day doesn't have to be perfect — what matters is moving forward."
+    },
+    {
+        ar: "النجاح الحقيقي لما يكون ليه أثر حلو على اللي حواليك.",
+        en: "True success is the positive impact you have on others."
+    },
+    {
+        ar: "كل واحد في الفريق بيضيف حاجة مختلفة… وده سر قوتنا.",
+        en: "Everyone brings something different to the team — that's our strength."
+    },
+    {
+        ar: "التعاون مش بس بيوصلنا أسرع، بيخلّي الطريق أحسن.",
+        en: "Collaboration doesn't just get us there faster — it makes the journey better."
+    },
+    {
+        ar: "اتعلم من كل تجربة، وخلي كل خطوة تقربك أكتر.",
+        en: "Learn from every experience and let every step take you further."
+    },
+    {
+        ar: "لو اليوم كان طويل… خليه ينتهي بإنجاز صغير.",
+        en: "If it's been a long day, end it with one small win."
+    },
+    {
+        ar: "مش كل تحدي محتاج حل سريع… ساعات محتاج هدوء وتركيز.",
+        en: "Not every challenge needs a quick solution — sometimes it needs calm and focus."
+    },
+    {
+        ar: "خد وقتك، رتّب أفكارك، وابدأ من جديد.",
+        en: "Take a moment, clear your thoughts, and start again."
+    },
+    {
+        ar: "مش مهم مين ياخد الـcredit… المهم إن الفريق يوصل.",
+        en: "It's not about who gets the credit — it's about the team getting there."
+    },
+    {
+        ar: "يوم صعب؟ عادي… بكرة فرصة جديدة.",
+        en: "Tough day? That's okay — tomorrow is a new opportunity."
+    },
+    {
+        ar: "يوم صعب؟ عادي… الحياة صعبة 😂",
+        en: "Tough day? It's okay… life is tough. 😂"
+    },
+    {
+        ar: "مفيش مشكلة كبيرة… لحد ما نفتح الـemail. 😂",
+        en: "It's not a big problem… until we open the email. 😂"
+    },
+    {
+        ar: "القهوة مش هتحل المشكلة… بس خلينا نشربها الأول ونشوف ☕😂",
+        en: "Coffee won't solve the problem… but let's have some first and see. ☕😂"
+    },
+    {
+        ar: "في حاجات محتاجة meeting… وفي حاجات محتاجة قهوة بس. ☕",
+        en: "Some things need a meeting… some things just need coffee. ☕"
+    },
+    {
+        ar: "خلصنا كل الـtasks؟ أكيد في حاجة نسيناها. 😂",
+        en: "Finished all the tasks? We definitely forgot something. 😂"
+    },
+    {
+        ar: "كل تأخيرة وفيها خيرة… أو كوباية قهوة. ☕😂",
+        en: "Every delay has a silver lining… or at least a cup of coffee. ☕😂"
     }
 ];
 
